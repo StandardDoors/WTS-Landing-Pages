@@ -1,3 +1,17 @@
+# Build output
+dist/
+dist-test/
+
+# Dependencies
+vendor/
+composer.lock
+
+# IDE
+.idea/
+.vscode/
+.DS_Store
+
+# Legacy
 Installer/
 .rulebook-ai/
 .rulebook-ai
