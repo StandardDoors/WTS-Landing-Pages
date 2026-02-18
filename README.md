@@ -28,7 +28,7 @@ Edit PHP files in `src/` and preview changes with `composer serve`. The site use
 
 **Structure:**
 - `src/*.php` → Source pages (converted to HTML)
-- `src/partials/` → Reusable header/footer
+- `src/partials/` → Reusable components (header, footer, logo, banners)
 - `src/Helpers/` → Utility classes (DateHelper, etc.)
 - `src/assets/` → CSS, images, logos
 - `dist/` → Generated static files (git-ignored)
@@ -76,5 +76,5 @@ No PHP execution happens on the server—everything is pre-rendered.
 
 ## Requirements
 
-- PHP 8.1+
+- PHP 8.1+ with `intl` extension
 - Composer
